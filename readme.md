@@ -19,16 +19,16 @@ npm run dev
 npm start
 ```
 ### Authentication
+
 In modern web applications, authentication can take a variety of forms. 
 Traditionally, users log in by providing a username and password. With 
 the rise of social networking, single sign-on using an OAuth provider 
 such as Facebook or Twitter has become a popular authentication method.
 
 
-### way to create project in developer.google.console.Its a way to use 
-### google as authentication system for your application.Steps involved
-### are :
+### way to create project in developer.google.console 
 
+* Its a way to use google as authentication system for your application.
 * create project
 * select api that u want to work with
 * enable that api
@@ -36,11 +36,21 @@ such as Facebook or Twitter has become a popular authentication method.
 * use keys that were generated in your project
 
 ### Authentication middleware for node
+
 http://www.passportjs.org/docs/oauth/
 Passport is authentication middleware for Node. It is designed to serve a singular purpose: authenticate requests.
 
-### Express handlebars and its directory structure..supports convention over
-### configuration
+### Express handlebars and its directory structure..
+
 https://www.npmjs.com/package/express-handlebars
 
-### learnt about structuring of this project
+### learnt about structuring of this project into following folders :
+
+* config
+* helpers
+* middleware
+* models
+* routes
+* views
+* public 
+
